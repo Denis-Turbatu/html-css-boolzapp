@@ -12,3 +12,36 @@
         height: 80px;
     }
 }
+
+@media screen and (min-width: 768px) {
+    /* webapp */
+
+    /* left-container */
+    .left-container {
+        width: 30%;
+    }
+
+    .user-settings{
+    /* debug */
+    background-color: lightsalmon;
+    height: 80px;
+    }
+
+.notifications {
+    /* debug */
+    background-color: lightgoldenrodyellow;
+    height: 75px;
+    }
+
+.search-bar {
+    /* debug */
+    background-color: lightseagreen;
+    height: 45px;
+    }
+
+    /* right-container */
+    .chat-user {
+        /* debug */
+        height: 80px;
+    }
+}

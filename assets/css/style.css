@@ -13,14 +13,8 @@
     display: none;
     /* debug */
     background-color: lightpink;
-    width: 100px;
+    width: 30%;
     height: 100vh;
-}
-
-.user-settings{
-    /* debug */
-    background-color: lightsalmon;
-    height: 80px;
 }
 
 /* Right-Container */
