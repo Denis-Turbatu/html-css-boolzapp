@@ -3,18 +3,22 @@
 .webapp-container{
     height: 100vh;
     width: 100%;
-    /* debug */
-    background-color: lightcoral;
 }
 
 /* Left-Container */
 
 .left-container{
     display: none;
-    /* debug */
-    background-color: lightpink;
-    width: 30%;
+    width: 100px;
     height: 100%;
+}
+
+.user-settings {
+    display: none;
+}
+
+.contacts{
+    display: none;
 }
 
 /* Right-Container */
@@ -22,31 +26,32 @@
 .right-container {
     width: 100%;
     height: 100vh;
-    /* debug */
-    background-color: lightblue;
 }
 
 /* top-part */
 
 .chat-user{
-    background-color: #fff;
+    background-color: #f3eeea;
     padding: 5px;
     height: 60px;
 }
 
-.user-chat-img {
-    width: 20%;
+.chat-img {
     text-align: center;
 }
 
-.user-chat-img img {
-    margin-inline: auto;
+.chat-img img {
     max-width: 50px;
     border-radius: 50%;
-} 
+}
+
+.user{
+    width: 20%;
+    max-width: 150px;
+}
 
 .user-chat-description {
-    width: 80%;
+    flex-grow: 1;
 }
 
 .user-chat-description h4 {
@@ -58,9 +63,13 @@
     color: #6b7376;
 } 
 
+.action-icons{
+    display: none;
+}
+
 /* middle-part */
 
-.messagges{
+.messages{
     height: calc(100% - 130px);
     background-image: url(../img/mine.jpg);
     
@@ -73,7 +82,6 @@
     width: 100%;
     padding: 10px;
     background-color: #f3eeea;
-    
 }
 
 .action-bar input{

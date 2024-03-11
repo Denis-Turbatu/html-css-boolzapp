@@ -1,19 +1,76 @@
 @media screen and (min-width: 768px) {
-    /* webapp */
+    /* WEBAPP */
 
-    /* left-container */
+    /* LEFT-CONTAINER */
     .left-container{
         display: block;
     }
-
-    /* right-container */
-    .chat-user{
-        /* debug */
+    .user-settings {
+        display: block;
+        border-right: solid  1px #d8d8d8;
+        background-color: #f3eeea;
         height: 80px;
+    }
+    .user-settings .chat-img img{
+        max-width: 80px;
+    }
+    .chat-img img {
+        max-width: 70px;
+        padding: 5px;
+    } 
+    .contacts{
+        display: block;
+    }
+    .contact{
+        height: 105px;
+        padding: 15px 2px;
+        border-bottom: solid 1px #d8d8d8;
+    }
+    /* RIGHT-CONTAINER */
+    /* Chat-user */
+    .chat-user{
+        height: 80px;
+    }
+    .user-chat-description h4 {
+        font-size: 2rem;
+    }
+    .user-chat-description p {
+        font-size: 1.4rem;
+    }
+    .action-icons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 3rem;
+        max-width: 200px;
+    }
+    .chat-user .action-icons{
+        width: 30%;
+        gap: 40px
+    }
+    .action-icons a {
+        color: #6b7376;
+    }
+    .right-container .action-bar .action-icons{
+        flex-grow: 1;
+    }
+    /* Messages */
+    .messages{
+        height: calc(100% - 150px);
+    }
+    /* Action-bar */
+    .action-bar input{
+        width: 80%;
+    }
+    .action-bar .lateral-action-icon{
+        flex-grow: 1;
+    }
+    .action-bar input::placeholder{
+        font-size: 2rem;
     }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1366) {
     /* webapp */
 
     /* left-container */
@@ -27,13 +84,13 @@
     height: 80px;
     }
 
-.notifications {
+    .notifications {
     /* debug */
     background-color: lightgoldenrodyellow;
     height: 75px;
     }
 
-.search-bar {
+    .search-bar {
     /* debug */
     background-color: lightseagreen;
     height: 45px;
