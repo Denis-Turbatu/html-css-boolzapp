@@ -14,7 +14,7 @@
     /* debug */
     background-color: lightpink;
     width: 30%;
-    height: 100vh;
+    height: 100%;
 }
 
 /* Right-Container */
@@ -30,41 +30,40 @@
 
 .chat-user{
     background-color: #fff;
-    /* padding: 5px; */
+    padding: 5px;
     height: 60px;
 }
 
 .user-chat-img {
     width: 20%;
-    /* text-align: center; */
-    background-color: red;
+    text-align: center;
 }
 
-/* .user-chat-img img {
+.user-chat-img img {
     margin-inline: auto;
     max-width: 50px;
     border-radius: 50%;
-} */
+} 
 
 .user-chat-description {
     width: 80%;
 }
 
-/* .user-chat-description h4 {
+.user-chat-description h4 {
     font-weight: 400;
 }
 
 .user-chat-description p {
     font-size: 1.2rem;
     color: #6b7376;
-} */
+} 
 
 /* middle-part */
 
 .messagges{
     height: calc(100% - 130px);
-    /* background-image: url(../img/mine.jpg); */
-    background-color: blue;
+    background-image: url(../img/mine.jpg);
+    
 }
 
 /* bottom-part */
@@ -73,14 +72,14 @@
     height: 70px;
     width: 100%;
     padding: 10px;
-    /* background-color: #f3eeea; */
-    background-color: green;
+    background-color: #f3eeea;
+    
 }
 
-/* .action-bar input{
+.action-bar input{
     height: 100%;
     width: 100%;
     border: none;
     border-radius: 10px;
     padding-left: 10px;
-} */
+}
