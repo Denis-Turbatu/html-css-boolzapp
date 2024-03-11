@@ -1,26 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/global.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/responsive.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/global.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
     <title>Boolzapp</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- WebApp -->
-        <div class="webapp-container">
-            <!-- left container -->
-            <div class="left-container">
+    <div class="webapp-container flex">
+      <!-- left container -->
+      <div class="left-container">
+        <!-- user-settings -->
+        <div class="user-settings"></div>
 
-            </div>
-            <!-- left container -->
+        <!-- notifications -->
+        <div class="notifications"></div>
 
-            <!-- right container -->
-            <div class="right-container"></div>
-            <!-- right container -->
+        <!-- search-bar -->
+        <div class="search-bar"></div>
+
+        <!-- contacts -->
+        <div class="contacts"></div>
+      </div>
+      <!-- left container -->
+
+      <!-- right container -->
+      <div class="right-container">
+        <!-- chat-user -->
+        <div class="chat-user flex">
+          <!-- img-user -->
+          <div class="user-chat-img flex flex-vertical-center">
+            <!-- <img src="./assets/img/avatar_1.jpg" alt="" />  -->
+          </div>
+          <!-- descriptio-user -->
+          <div class="user-chat-description flex column flex-vertical-center">
+            <!-- <h4>Michele</h4>
+            <p>Ultimo accesso oggi alle 16:26</p> -->
+          </div>
         </div>
+
+        <!-- messagges -->
+        <div class="messagges"></div>
+
+        <!-- action-bar -->
+        <div class="action-bar">
+            <!-- <input type="text" placeholder="Scrivi un messaggio"> -->
+        </div>
+      </div>
+      <!-- right container -->
+    </div>
     <!-- /WebApp -->
-</body>
+  </body>
 </html>

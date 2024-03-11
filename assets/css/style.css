@@ -1,0 +1,85 @@
+/* Web-App */
+
+.webapp-container{
+    height: 100vh;
+    width: 100%;
+    /* debug */
+    background-color: lightcoral;
+}
+
+/* Left-Container */
+
+.left-container{
+    display: none;
+    /* debug */
+    background-color: #fff;
+    width: 100px;
+    height: 100vh;
+}
+
+/* Right-Container */
+
+.right-container {
+    background-color: lightblue;
+    width: 100%;
+    height: 100vh;
+}
+
+/* top-part */
+
+.chat-user{
+    background-color: #fff;
+    /* padding: 5px; */
+    height: 60px;
+}
+
+.user-chat-img {
+    width: 20%;
+    /* text-align: center; */
+    background-color: red;
+}
+
+/* .user-chat-img img {
+    margin-inline: auto;
+    max-width: 50px;
+    border-radius: 50%;
+} */
+
+.user-chat-description {
+    width: 80%;
+}
+
+/* .user-chat-description h4 {
+    font-weight: 400;
+}
+
+.user-chat-description p {
+    font-size: 1.2rem;
+    color: #6b7376;
+} */
+
+/* middle-part */
+
+.messagges{
+    height: calc(100% - 130px);
+    /* background-image: url(../img/mine.jpg); */
+    background-color: blue;
+}
+
+/* bottom-part */
+
+.action-bar{
+    height: 70px;
+    width: 100%;
+    padding: 10px;
+    /* background-color: #f3eeea; */
+    background-color: green;
+}
+
+/* .action-bar input{
+    height: 100%;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding-left: 10px;
+} */
