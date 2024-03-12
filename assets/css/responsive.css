@@ -167,6 +167,9 @@
     .contact{
         align-items: center;
     }
+    .contact:hover{
+        background-color: #d8d8d8;
+    }
     .contact-message{
         display: flex;
         flex-direction: column;
