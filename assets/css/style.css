@@ -89,6 +89,7 @@
 .messages .row .self-message{
     margin: 20px;
     width: 70%;
+    border-radius: 10px;
 }
 .messages .self-message {
     align-items: end;
