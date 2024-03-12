@@ -13,11 +13,11 @@
     height: 100%;
 }
 
-.user-settings {
-    display: none;
-}
-
-.contacts{
+.user-settings,
+.user-action,
+.notifications,
+.contacts,
+.contact-message {
     display: none;
 }
 
@@ -72,7 +72,7 @@
 .messages{
     height: calc(100% - 130px);
     background-image: url(../img/mine.jpg);
-    
+    overflow-y: scroll;
 }
 
 /* bottom-part */

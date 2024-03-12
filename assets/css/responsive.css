@@ -11,8 +11,12 @@
         background-color: #f3eeea;
         height: 80px;
     }
+    .user-settings .user-actions{
+        display: none;
+    }
     .user-settings .chat-img img{
         max-width: 80px;
+        padding: 10px;
     }
     .chat-img img {
         max-width: 70px;
@@ -20,6 +24,8 @@
     } 
     .contacts{
         display: block;
+        overflow-y: scroll;
+        max-height: calc(100% - 80px);  
     }
     .contact{
         height: 105px;
@@ -41,7 +47,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 3rem;
+        font-size: 2rem;
         max-width: 200px;
     }
     .chat-user .action-icons{
@@ -70,30 +76,108 @@
     }
 }
 
-@media screen and (min-width: 1366) {
-    /* webapp */
+@media screen and (min-width: 1366px) {
+    /* WEBAPP */
 
-    /* left-container */
+    /* Left-Container */
     .left-container {
         width: 30%;
     }
 
+    /* user-container */
     .user-settings{
-    /* debug */
-    background-color: lightsalmon;
-    height: 80px;
+        height: 80px;
+    }
+    .user-settings .user-actions{
+        display: flex;
+        width: 80%;
+        gap: 20px;
+        justify-content: end;
     }
 
+    /* notifications */
     .notifications {
-    /* debug */
-    background-color: lightgoldenrodyellow;
-    height: 75px;
+        display: flex;
+        background-color: #8edafc;
+        height: 75px;
+        align-items: center;
+        justify-content: left;
+    }
+    .circle-notification{
+        width: 55px;
+        height: 55px;
+        margin-inline: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        font-size: 2rem;
+        color: #8edafc;
+        background-color: white
+    }
+    .active-notification h4{
+        font-size: 1.4rem;
+    }
+    .active-notification a{
+        font-size: 1.3rem;
+        color: #6b7376;
     }
 
+
+    /* search-bar */
     .search-bar {
-    /* debug */
-    background-color: lightseagreen;
-    height: 45px;
+        display: flex;
+    background-color: #f3eeea;
+    height: 60px;
+    }
+    .search-bar .search-icon{
+        width: 20%;
+        border-radius: 10px 0 0 10px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #6b7376;
+    }
+    .search-bar input{
+        border-radius: 0 10px 10px 0;
+    }
+    .search-bar input::placeholder{
+        font-size: 1.3rem;
+    }
+
+    /* contacts */
+    .contacts{
+        overflow-y: scroll;
+        max-height: calc(100% - 215px);
+    }
+    .contact{
+        align-items: center;
+    }
+    .contact-message{
+        display: flex;
+        flex-direction: column;
+        width: 75%;
+        padding: 5px;
+    }
+    .contact-message span{
+        display: inline-block;
+    }
+    .contact-message span:first-child{
+        text-align: left;
+        width: 69%;
+        font-size: 2rem;
+    }
+    .contact-message span:last-child{
+        width: 29%;
+        text-align: right;
+    }
+    .contact-message p{
+        text-align: left;
+    }
+    .contact-message span:last-child, .contact-message p{
+        color: #6b7376;
+        font-size: 1.2rem;
     }
 
     /* right-container */

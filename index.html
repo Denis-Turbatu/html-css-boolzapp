@@ -21,42 +21,117 @@
       <div class="left-container">
         <!-- user-settings -->
         <div class="user-settings">
-            <div class="chat-img flex flex-vertical-center">
-            <img src="./assets/img/avatar_io.jpg" alt="" />
+          <div class="chat-img flex flex-vertical-center">
+            <img src="./assets/img/avatar_io.jpg" alt="profile-img" />
+            <!-- icons -->
+          <div class="action-icons user-actions">
+            <a href=""><i class="fa-solid fa-circle-notch"></i></a>
+            <a href=""><i class="fa-solid fa-message"></i></a>
+            <a href=""><i class="fa-solid fa-ellipsis-vertical"></i></a>
+          </div>
           </div>
         </div>
 
         <!-- notifications -->
-        <div class="notifications"></div>
+        <div class="notifications flex flex-vertical-center">
+            <div class="circle-notification">
+              <i class="fa-solid fa-bell-slash"></i>
+            </div>
+            <div class="active-notification">
+              <h4>Ricevi notifiche di nuovi messaggi</h4>
+              <a href="">Attiva notifiche desktop</a>
+            </div>
+          </div>
 
         <!-- search-bar -->
-        <div class="search-bar"></div>
+        <div class="search-bar action-bar">
+          <div class="search-icon">
+            <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
+          </div>
+          <input type="text" placeholder="Cerca o inzia una nuova chat">
+        </div>
 
         <!-- contacts -->
         <div class="contacts">
-            <div class="contact chat-img flex flex-vertical-center">
+          <div class="contact chat-img flex flex-vertical-center">
             <img src="./assets/img/avatar_1.jpg" alt="" />
+            <div class="contact-message">
+              <div class="top-message">
+                <span>Michele</span>
+                <span>16:26</span>
+              </div>
+              <p>Lorem ipsum dolor sit amet</p>
+            </div>
           </div>
           <div class="contact chat-img flex flex-vertical-center">
             <img src="./assets/img/avatar_2.jpg" alt="" />
+            <div class="contact-message">
+              <div class="top-message">
+                <span>Fabio</span>
+                <span>16:05</span>
+              </div>
+              <p>Lorem ipsum dolor sit amet</p>
+            </div>
           </div>
           <div class="contact chat-img flex flex-vertical-center">
             <img src="./assets/img/avatar_3.jpg" alt="" />
+            <div class="contact-message">
+              <div class="top-message">
+                <span>Samuele</span>
+                <span>16:03</span>
+              </div>
+              <p>Lorem ipsum dolor sit amet</p>
+            </div>
           </div>
           <div class="contact chat-img flex flex-vertical-center">
             <img src="./assets/img/avatar_4.jpg" alt="" />
+            <div class="contact-message">
+              <div class="top-message">
+                <span>Alessandro B.</span>
+                <span>15:50</span>
+              </div>
+              <p>Lorem ipsum dolor sit amet</p>
+            </div>
           </div>
           <div class="contact chat-img flex flex-vertical-center">
             <img src="./assets/img/avatar_5.jpg" alt="" />
+            <div class="contact-message">
+              <div class="top-message">
+                <span>Alessandro L.</span>
+                <span>15:45</span>
+              </div>
+              <p>Lorem ipsum dolor sit amet</p>
+            </div>
           </div>
           <div class="contact chat-img flex flex-vertical-center">
             <img src="./assets/img/avatar_6.jpg" alt="" />
+            <div class="contact-message">
+              <div class="top-message">
+                <span>Claudia</span>
+                <span>15:40</span>
+              </div>
+              <p>Lorem ipsum dolor sit amet</p>
+            </div>
           </div>
           <div class="contact chat-img flex flex-vertical-center">
             <img src="./assets/img/avatar_7.jpg" alt="" />
+            <div class="contact-message">
+              <div class="top-message">
+                <span>Federico</span>
+                <span>15:20</span>
+              </div>
+              <p>Lorem ipsum dolor sit amet</p>
+            </div>
           </div>
           <div class="contact chat-img flex flex-vertical-center">
             <img src="./assets/img/avatar_8.jpg" alt="" />
+            <div class="contact-message">
+              <div class="top-message">
+                <span>Davide</span>
+                <span>15:15</span>
+              </div>
+              <p>Lorem ipsum dolor sit amet</p>
+            </div>
           </div>
         </div>
       </div>
@@ -73,7 +148,7 @@
           <!-- description-user -->
           <div class="user-chat-description flex column flex-vertical-center">
             <h4>Michele</h4>
-            <p>Ultimo accesso oggi alle 16:26</p> 
+            <p>Ultimo accesso oggi alle 16:26</p>
           </div>
           <!-- icons -->
           <div class="action-icons">
@@ -88,13 +163,13 @@
 
         <!-- action-bar -->
         <div class="action-bar flex">
-            <div class="lateral action-icons">
-                <a href=""><i class="fa-regular fa-face-smile"></i></a>
-            </div>
-            <input type="text" placeholder="Scrivi un messaggio">
-            <div class="lateral action-icons">
-                <a href=""><i class="fa-solid fa-microphone"></i></a>
-            </div>
+          <div class="lateral action-icons">
+            <a href=""><i class="fa-regular fa-face-smile"></i></a>
+          </div>
+          <input type="text" placeholder="Scrivi un messaggio" />
+          <div class="lateral action-icons">
+            <a href=""><i class="fa-solid fa-microphone"></i></a>
+          </div>
         </div>
       </div>
       <!-- right container -->
@@ -102,6 +177,9 @@
     <!-- /WebApp -->
 
     <!-- Fontawesome -->
-    <script src="https://kit.fontawesome.com/84174ae206.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/84174ae206.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
